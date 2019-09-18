@@ -1,0 +1,25 @@
+body {
+  height: 26000px;
+  font-family: 'Raleway', sans-serif;
+}
+
+div {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+
+/*@media only screen and (min-height: 500px) {
+  svg {
+    top: 50%;
+    min-height: none;
+  }
+  .ole { 
+    top: 80%;
+  }
+
+}*/
