@@ -1,5 +1,5 @@
 body {
-  height: 26000px;
+  height: 6700px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -12,8 +12,17 @@ div {
   
 }
 
+img {
+  margin-top: -200px;  
+}
 
-/*@media only screen and (min-height: 500px) {
+.intro{
+	background-image: url(./images/macintosh.png);
+	position: center;
+}
+
+
+@media only screen and (min-height: 500px) {
   svg {
     top: 50%;
     min-height: none;
@@ -22,4 +31,4 @@ div {
     top: 80%;
   }
 
-}*/
+}
