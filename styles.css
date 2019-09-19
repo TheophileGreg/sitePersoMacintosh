@@ -1,5 +1,5 @@
 body {
-  height: 6700px;
+  height: 8000px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -18,7 +18,7 @@ img {
 
 .intro{
 	background-image: url(./images/macintosh.png);
-	position: center;
+	background-position: center;
 }
 
 

@@ -13,13 +13,30 @@
 
 <body>
 
-<div class="intro"> 
-<div  data-0="opacity: 1;" data-200="opacity: 0; top:60%">Bienvenue, Je m'appelle Théophile Gregoire</div>
-<div data-200="opacity: 0;" data-400="opacity: 1.5;" data-600="opacity: 0; top:50% ;margin-left:250px">Thanks! Keep scrolling..</div>
-<div  data-800="opacity: 0;" data-1000="opacity: 1.5; " data-2000="" data-2200="opacity: 0;">Let me tell you something about myself ..</div>
-<div  data-2400="opacity: 0;top: 50%;" data-2600="opacity: 1.5; " data-3000="" data-3200="opacity: 0; top: 70%;">I am a briliant artist!</div>
-<div  data-3400="opacity: 0;top: 0%;" data-3600="opacity: 1.5;" data-4000="margin-left: 0px;" data-4200="opacity: 0; margin-left: -200px;">I know how to draw:</div>
 
+
+<div class="intro"> 
+<button class="center">test</button>
+<div  data-0="opacity: 1;" data-200="opacity: 0; top:60%">Bienvenue, Je m'appelle Théophile Gregoire</div>
+<div data-200="opacity: 0;" data-400="opacity: 1.5;" data-600="opacity: 0; top:50% ;left:30%">Thanks! Keep scrolling..</div>
+<div  data-800="opacity: 0;" data-1000="opacity: 1.5; " data-2000="" data-2200="opacity: 0; top:50% ;left:30%">Laissez-moi me présenter...</div>
+<div  data-2400="opacity: 0;top: 50%;" data-2600="opacity: 1.5; " data-3000="" data-3200="opacity: 0; top:50% ;left:30%"">I am a briliant artist!</div>
+<div  data-3400="opacity: 0;top: 40%;" data-3600="opacity: 1.5;" data-4000="margin-left: 0px;top:20%" data-4200="opacity: 0; top:0% ;left:30%">I know how to draw:</div>
+
+<div  data-4200="opacity: 0;top: 40%;" data-4400="opacity: 1.5;" data-4800="margin-left: 0px;top:20%;" data-5000="opacity: 0; top:0% ;left:30%">I know how to draw:</div>
+
+<div data-5000="opacity: 0;top: 35%;left:25%;" data-5200="opacity: 1;left: 30%;" data-6000="" data-6600="opacity: 0;left: 40%;">
+<span data-5200="opacity: 0" data-6000="opacity: 1">Envie d'en savoir plus ? <br> Défilez encore un peu...</span>
+</div>
+
+<div  data-6000="opacity: 0" data-6200="opacity:1">
+ 
+  <div mag-zoom="outer-drag">
+  <img src="./images/macintosh.png" />
+</div>
+
+
+</div>
 
 </div>
 
@@ -35,6 +52,15 @@
   skrollr.init({
     forceHeight: false });
 
+});
+
+    </script>
+    <script >
+       $host = $('[mag-thumb="outer-drag"]');
+$host.mag({
+  mode: 'outer',
+  position: 'drag',
+  toggle: false
 });
     </script>
 
