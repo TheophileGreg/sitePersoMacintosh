@@ -16,19 +16,11 @@ img {
   margin-top: -200px;  
 }
 
+.zoom{
+	position: center;
+}
+
 .intro{
 	background-image: url(./images/macintosh.png);
 	background-position: center;
-}
-
-
-@media only screen and (min-height: 500px) {
-  svg {
-    top: 50%;
-    min-height: none;
-  }
-  .ole { 
-    top: 80%;
-  }
-
 }
