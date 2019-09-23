@@ -1,5 +1,6 @@
 body {
   height: 8000px;
+  width: 2000px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -34,8 +35,12 @@ div {
 .container1{
   z-index: 50;
   top: 22%;
-  right: 5%;
-  
+  left:30%;
+  right: 34%;
+
+  border: 4px solid #000;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .container{
