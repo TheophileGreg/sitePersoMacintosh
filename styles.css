@@ -6,7 +6,10 @@ body {
 }
 
 div {
-  position: fixed;
+    background-image: url(./images/macintosh.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: static;
   width: 100%;
   min-height: 100%;
   text-align: center;
@@ -15,14 +18,12 @@ div {
 }
 
 .btnRaccourciScreen{
-  position: static;
-  top : 40%;
-  left: 39%;
+  position: fixed;
 }
 
 .intro{
-  background-image: url(./images/macintosh.png);
-  background-position: center;
+
+
 
 }
 
