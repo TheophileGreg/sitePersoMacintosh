@@ -1,6 +1,7 @@
 body {
   height: 7300px;
   width: 2000px;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -14,7 +15,7 @@ div {
 }
 
 .btnRaccourciScreen{
-  position: absolute;
+  position: static;
   top : 40%;
   left: 39%;
 }
