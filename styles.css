@@ -1,36 +1,39 @@
-body {
-  height: 7300px;
-  width: 2000px;
-  margin: auto;
-  font-family: 'Raleway', sans-serif;
+
+.windows{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
 }
 
-div {
-    background-image: url(./images/macintosh.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  position: static;
-  width: 100%;
-  min-height: 100%;
-  text-align: center;
-  font-size: 30px;
+.colonne{
+  flex-direction: column;
+  flex-grow: 1 1 1;
+  flex: auto;
+  
+
+}
+
+.ligne {
+  flex-direction: row;
+  flex-grow: 1 1 1;
+  flex : auto;
   
 }
 
-.btnRaccourciScreen{
-  position: fixed;
+/*définir a flex-shrink none à partir d'un certain moment*/
+
+
+.toto {
+ background-color: #232;
 }
 
-.intro{
-
-
-
-}
-
-
-.container img {
-  width: 100%;
-  height: 100%;
+img {
+  po
+  margin-bottom: auto;
 
 }
 
