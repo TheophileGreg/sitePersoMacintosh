@@ -4,37 +4,61 @@
   width: 100vw;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: center safe;
   align-items: center;
   background-color: pink;
+  padding: 0;
+
+}
+
+
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+
+}
+
+iframe {
+  width: 100%;
+  height: auto;
 }
 
 .colonne{
   flex-direction: column;
   flex-grow: 1 1 1;
   flex: auto;
+  margin-bottom: 0;
   
-
 }
 
 .ligne {
   flex-direction: row;
   flex-grow: 1 1 1;
   flex : auto;
+  margin-bottom: 0;
+
   
+
 }
 
 /*définir a flex-shrink none à partir d'un certain moment*/
 
 
 .toto {
- background-color: #232;
+  background-color: green;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
 
-img {
-  po
-  margin-bottom: auto;
 
+img {
+    margin-bottom: 0;
+    margin: 0;
+    padding-bottom: 0;
+    padding: 0;
 }
 
 
