@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .windows{
   height: 100vh;
@@ -7,6 +8,12 @@
   justify-content: center;
   align-items: center;
   background-color: pink;
+=======
+body {
+  height: 7300px;
+  width: 2000px;
+  font-family: 'Raleway', sans-serif;
+>>>>>>> parent of 27e9ee7... fixe button go to my page
 }
 
 .colonne{
@@ -17,11 +24,18 @@
 
 }
 
+<<<<<<< HEAD
 .ligne {
   flex-direction: row;
   flex-grow: 1 1 1;
   flex : auto;
   
+=======
+.btnRaccourciScreen{
+  position: absolute;
+  top : 40%;
+  left: 39%;
+>>>>>>> parent of 27e9ee7... fixe button go to my page
 }
 
 /*définir a flex-shrink none à partir d'un certain moment*/
