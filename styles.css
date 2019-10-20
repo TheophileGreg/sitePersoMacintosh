@@ -5,23 +5,42 @@
   width: 100vw;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: center safe;
   align-items: center;
   background-color: pink;
+<<<<<<< HEAD
 =======
 body {
   height: 7300px;
   width: 2000px;
   font-family: 'Raleway', sans-serif;
 >>>>>>> parent of 27e9ee7... fixe button go to my page
+=======
+  padding: 0;
+
+}
+
+
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+>>>>>>> 68e10218650fe772f2e4ce0c219de01b4c57f247
 }
 
 .colonne{
   flex-direction: column;
   flex-grow: 1 1 1;
   flex: auto;
+  margin-bottom: 0;
   
-
 }
 
 <<<<<<< HEAD
@@ -29,26 +48,37 @@ body {
   flex-direction: row;
   flex-grow: 1 1 1;
   flex : auto;
+  margin-bottom: 0;
+
   
+<<<<<<< HEAD
 =======
 .btnRaccourciScreen{
   position: absolute;
   top : 40%;
   left: 39%;
 >>>>>>> parent of 27e9ee7... fixe button go to my page
+=======
+
+>>>>>>> 68e10218650fe772f2e4ce0c219de01b4c57f247
 }
 
 /*définir a flex-shrink none à partir d'un certain moment*/
 
 
 .toto {
- background-color: #232;
+  background-color: green;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
 
-img {
-  po
-  margin-bottom: auto;
 
+img {
+    margin-bottom: 0;
+    margin: 0;
+    padding-bottom: 0;
+    padding: 0;
 }
 
 
